@@ -1272,7 +1272,8 @@ body{
 	z-index:2;
 	position:fixed;
 	clear:both;
-	margin-left:-100px;
+	margin-left:-20px;
+	margin-top:-20px;
 	
 	
 	}
