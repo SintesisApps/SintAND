@@ -1270,8 +1270,9 @@ body{
 	color: #0c6090;
 	width:100%;
 	z-index:2;
-	position:fixed; 
-	bottom:0;
+	position:fixed;
+	clear:both;
+	margin-left:-100px;
 	
 	
 	}
