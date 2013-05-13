@@ -285,6 +285,7 @@ body{
 .DivVertical{
 	width:35%;
 	display:inline-block;
+	height:240px;
 	}
 .ContenedorSlideVertical {
 	width: 100%;
@@ -295,7 +296,7 @@ body{
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 	margin-bottom:50px;
-	height:300px;
+	height:240px;
 	
 	
 }
@@ -419,6 +420,7 @@ body{
 /*Video*/
 
 /*Suplementos*/
+
 .Suplementos {
 	display:inline-block;
 	width: 40%;
@@ -427,7 +429,7 @@ body{
 }
 .DivSuplementos {
 	 width:333px;
-	 height:260px;
+	 height:240px;
 	 overflow-x:auto;
 	 -webkit-overflow-scrolling: touch;
 }
@@ -811,7 +813,7 @@ body{
 	display:inline-block;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
-	height:310px;
+	height:240px;
 	
 	
 }
@@ -880,7 +882,7 @@ body{
 	width:50%;
 	}
 .ContenedorSlideVertical {
-	height:547px;
+	height:240px;
 }
 .SlideVerticalImagen {
 	width: 49%;
