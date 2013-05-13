@@ -285,7 +285,7 @@ body{
 .DivVertical{
 	width:35%;
 	display:inline-block;
-	height:250px;
+	height:280px;
 	}
 .ContenedorSlideVertical {
 	width: 100%;
@@ -802,7 +802,7 @@ body{
 
 /*Slide Vertical*/
 .DivVertical{
-	height:250px;
+	height:280px;
 	}
 .ContenedorSlideVertical {
 	width: 100%;
@@ -878,7 +878,7 @@ body{
 
 	 /*Slide Vertical*/
 .DivVertical{
-	height:250px;
+	height:280px;
 	width:50%;
 	}
 .ContenedorSlideVertical {
@@ -1272,8 +1272,8 @@ body{
 	z-index:2;
 	position:fixed;
 	clear:both;
-	margin-left:-20px;
-	margin-top:-20px;
+	margin-left:-5px;
+	margin-top:0px;
 	
 	
 	}
