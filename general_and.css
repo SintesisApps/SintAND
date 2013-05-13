@@ -169,7 +169,7 @@ body{
 .SlidePrincipalImagen {
 	display:inline-block;
 	width:49%;
-	height:242px;
+	height:300px;
 	vertical-align:top;
 	overflow:hidden;
 }
@@ -285,7 +285,7 @@ body{
 .DivVertical{
 	width:35%;
 	display:inline-block;
-	height:280px;
+	height:320px;
 	}
 .ContenedorSlideVertical {
 	width: 100%;
@@ -802,7 +802,7 @@ body{
 
 /*Slide Vertical*/
 .DivVertical{
-	height:280px;
+	height:320px;
 	}
 .ContenedorSlideVertical {
 	width: 100%;
@@ -878,7 +878,7 @@ body{
 
 	 /*Slide Vertical*/
 .DivVertical{
-	height:280px;
+	height:320px;
 	width:50%;
 	}
 .ContenedorSlideVertical {
@@ -1273,7 +1273,7 @@ body{
 	position:fixed;
 	clear:both;
 	margin-left:-5px;
-	margin-top:0px;
+	margin-top:-10px;
 	
 	
 	}
