@@ -296,7 +296,7 @@ body{
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 	margin-bottom:50px;
-	height:280px;
+	height:290px;
 	
 	
 }
@@ -1272,7 +1272,7 @@ body{
 	z-index:5;
 	position:fixed;
 	clear:both;
-	margin-left:-3px;
+	margin-left:-4px;
 	margin-top:-14px;
 	
 	
