@@ -432,7 +432,8 @@ body{
 	padding:10px;	
 }
 .DivSuplementos {
-	 width:233px;
+	 width:333px;
+	 height:276px;
 	 overflow-x:auto;
 	 -webkit-overflow-scrolling: touch;
 }
