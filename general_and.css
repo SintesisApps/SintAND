@@ -1269,11 +1269,11 @@ body{
 	font-size: 16px;
 	color: #0c6090;
 	width:100%;
-	z-index:2;
+	z-index:5;
 	position:fixed;
 	clear:both;
 	margin-left:-5px;
-	margin-top:-10px;
+	margin-top:-15px;
 	
 	
 	}
