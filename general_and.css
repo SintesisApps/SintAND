@@ -1259,5 +1259,12 @@ body{
 	
 
 	<!--Reproductor de Video-->
-	
+#contenedor_general
+{
+	width:1200px;
+	height:697px;
+	position:absolute;
+	margin:0px auto;
+	background:#000	;
+}
  
