@@ -11,7 +11,7 @@ a:hover {
 	text-decoration: none;
 }
 body{
-	background-image: url(imagenes/patron.png);
+	<!--background-image: url(imagenes/patron.png);-->
 	font-family:  Helvetica, sans-serif;
 	height:100%;
 	width:100%;
@@ -19,12 +19,12 @@ body{
 	}
 
 
-#div
+/*#div
 {
 	position:absolute;
 	width:1280px;
 	height:697px;	
-}
+}*/
 	
 .HeaderAlternativo{
 	background-image:url(imagenes/barra.png);
