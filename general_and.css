@@ -186,7 +186,7 @@ body{
 .SlidePrincipalContenido {
 	display:inline-block;
 	width:49%;
-	height:230px;
+	height:250px;
 	vertical-align:top;
 	font-size: 30px;
 	color: #666;
@@ -285,7 +285,7 @@ body{
 .DivVertical{
 	width:35%;
 	display:inline-block;
-	height:240px;
+	height:250px;
 	}
 .ContenedorSlideVertical {
 	width: 100%;
@@ -802,7 +802,7 @@ body{
 
 /*Slide Vertical*/
 .DivVertical{
-	height:auto;
+	height:250px;
 	}
 .ContenedorSlideVertical {
 	width: 100%;
@@ -878,7 +878,7 @@ body{
 
 	 /*Slide Vertical*/
 .DivVertical{
-	height:500px;
+	height:250px;
 	width:50%;
 	}
 .ContenedorSlideVertical {
