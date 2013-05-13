@@ -1260,7 +1260,7 @@ body{
 	position:fixed;
 	margin:0px auto;
 }
- .HeaderAlternativo{
+ .HeaderAlternativo_footer{
 	background-image:url(imagenes/barra.png);
 	height:44px;
 	font-family:  Helvetica, sans-serif;
