@@ -34,13 +34,12 @@ body{
 	}
 	
 #pie_pag
-{/*style="position:fixed; bottom:0; vertical-align:top"*/
-
-	 /*bottom:0; */
+{
+	 bottom:0; 
 	 
 	 vertical-align:top;
 	 margin-top:-10px;
-	 	position:absolute;
+	 position:absolute;
 	clear:both;
 	 
 	/* position:fixed;
