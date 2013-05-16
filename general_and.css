@@ -37,14 +37,9 @@ body{
 {
 	 
 	 vertical-align:top;
-	 margin-top:0px;
+	 margin-top:-5px;
 	 position:absolute;
 	clear:both;
-	 
-	/* position:fixed;
-	  bottom:0;
-	   vertical-align:top;*/
-	
 }
 .DialogoPlaza{
 	width:250px;
