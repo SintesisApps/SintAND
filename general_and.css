@@ -383,7 +383,7 @@ body{
 .ContenedorMinutovideo {
 	width: 56%;
 	display:inline-block;
-	height:auto;
+	height:265px;
 	float:left;
 	background:#000;
 	margin-top:10px;
