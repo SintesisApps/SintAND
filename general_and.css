@@ -35,11 +35,9 @@ body{
 	
 #pie_pag
 {
-	 
-	 vertical-align:top;
-	 margin-top:-20px;
+/*	 margin-top:-20px;*/
 	 position:absolute;
-	clear:both;
+	 bottom:0px;
 }
 .DialogoPlaza{
 	width:250px;
