@@ -17,14 +17,6 @@ body{
 	width:100%;
 	
 	}
-
-
-#div
-{
-	position:absolute;
-	width:1280px;
-	height:697px;	
-}
 	
 .HeaderAlternativo{
 	background-image:url(imagenes/barra.png);
@@ -38,23 +30,6 @@ body{
 	
 	
 	}
-	
-#pie_pag
-{/*style="position:fixed; bottom:0; vertical-align:top"*/
-
-	 /*bottom:0; */
-	 /*
-	 vertical-align:top;
-	 margin-top:-200px;
-	 	position:absolute;*/
-	 /*clear:both;
-	 style=""
-	 */
-	/* position:fixed;
-	  bottom:0;
-	   vertical-align:top;*/
-	
-}
 .DialogoPlaza{
 	width:250px;
 	height:30px;
@@ -228,7 +203,7 @@ body{
 	font-family:  Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	color:#000;
+	color:#666666;
 	text-shadow: 0.2em 0.2em #B8B8B8;
 }
 /*Slide Principal*/
@@ -351,6 +326,7 @@ body{
 	width:100%;
 	text-shadow: 0.3em 0.2em #B2B2B2 ;
 	font-weight: bold;
+	color:#4D4D4D;
 
 }
 
@@ -375,7 +351,7 @@ body{
 .ContenedorDivMedio {
 	width: 62.9%;
 	background: rgba(204,204,204,.4);
-	height:auto;
+	height:564px;
 	display:inline-block;
 	vertical-align:top;
 	margin:7px;
@@ -501,6 +477,7 @@ body{
 	}
 .ImagenPrincipalSeccion img{
 	width:98%;
+	height:auto;
 	box-shadow: 5px 5px 5px #000;
 	}
 .TextoPrincipalSeccion{
@@ -787,12 +764,19 @@ body{
 	height:100%;
 	text-align:center;
 	}
-
+#map_canvas
+{
+	background:url(imagenes/mapa_horizontal.png) no-repeat;
+	width:100%;
+	height:100%;
+	background-size:100% 100%;
+}
  @media screen and (min-width: 0px) and (max-width: 1024px) {
 
 
 
 <!--Slide Miniaturas-->
+
 .ContenedorSlideMiniaturas {
 	width: 1010px;
 	margin:auto;
@@ -859,7 +843,7 @@ body{
 	display:inline-block;
 	width: 100%;
 	vertical-align:top;
-	height:89.5%;
+	height:90%;
 	
 }
 
@@ -870,11 +854,24 @@ body{
 .ContenedorDivMedio {
 	width:62%;
 }
+#map_canvas
+{
+	background:url(imagenes/mapa_vertical.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
 /*Div Medio*/
  }
  
  @media screen and (min-width: 0px) and (max-width: 958px) {
-
+#map_canvas
+{
+	background:url(imagenes/mapa_vertical.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
 
 	 /*Slide Vertical*/
 .DivVertical{
