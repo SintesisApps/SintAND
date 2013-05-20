@@ -798,7 +798,12 @@ body{
 	height:50%;
 	/*background-size:100% 100%;*/
 }
-
+.contUbicacion
+{
+background:url(imagenes/mapa.png) no-repeat;
+	width:100%;
+	height:50%;
+}
 
 
  @media screen and (min-width: 0px) and (max-width: 1024px) {
