@@ -40,7 +40,7 @@ body{
 #pie_pag
 {
 	margin-bottom:-10px;
-	margin-left:-4px;
+	/*margin-left:-4px;*/	
 }
 .DialogoPlaza{
 	width:250px;
@@ -362,8 +362,8 @@ body{
 /*Contenedor Div Medio*/
 .ContenedorDivMedio {
 	width: 62.9%;
-	background: rgba(204,204,204,.4);
-	/*background: rgba(12,132,56,.4);*
+	/*background: rgba(204,204,204,.4);*/
+	background: rgba(12,132,56,.4);
 	height:289px;
 	display:inline-block;
 	vertical-align:top;
@@ -1304,7 +1304,7 @@ body{
 	color: #0c6090;
 	width:100%;
 	z-index:10;
-	margin-bottom:-5px;
+	/*margin-bottom:-5px;*/
 	
 	
 	}
