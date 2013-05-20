@@ -38,14 +38,7 @@ body{
 #pie_pag
 {
 	margin-bottom:-10px;
-	margin-left:-4px;
-/*position:fixed; bottom:0; vertical-align:top*/
-/*
-margin-top:-200px;
-margin-left:200px;*/
-/*margin-top:0px;
-	 position:fixed;
-	 clear:both;*/	
+	/*margin-left:-4px;*/	
 }
 .DialogoPlaza{
 	width:250px;
@@ -1309,7 +1302,7 @@ margin-left:200px;*/
 	color: #0c6090;
 	width:100%;
 	z-index:10;
-	margin-bottom:-5px;
+	/*margin-bottom:-5px;*/
 	
 	
 	}
