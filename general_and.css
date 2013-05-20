@@ -362,8 +362,8 @@ body{
 /*Contenedor Div Medio*/
 .ContenedorDivMedio {
 	width: 62.9%;
-	/*background: rgba(204,204,204,.4);*/
-	background: rgba(12,132,56,.4);
+	background: rgba(204,204,204,.4);
+	/*background: rgba(12,132,56,.4);*
 	height:289px;
 	display:inline-block;
 	vertical-align:top;
@@ -378,7 +378,6 @@ body{
 	display:inline-block;
 	height:279px;
 	float:left;
-	background:#000;
 	margin-top:10px;
 	
 }
