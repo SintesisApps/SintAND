@@ -301,7 +301,8 @@
 
 function LeerNota(id)
 	{ CargarNoticiasHome();
-		$('.ExtrasPlaza').html('<img src="http://166.78.193.53/RecursosApp/ios/imagenes/loading.gif" />');
+	document.getElementById("cargando").style.display='';
+		//$('.ExtrasPlaza').html('<img src="http://166.78.193.53/RecursosApp/ios/imagenes/loading.gif" />');
 		document.getElementById("div_nt").innerHTML="";
 						document.getElementById("div_ns").innerHTML="";
 						document.getElementById("div_na").innerHTML="";
@@ -359,10 +360,11 @@ function LeerNota(id)
 					datos[i].nota
 					);
 					
-					//$('.ExtrasPlaza').html(datos[i].nota_extra);
-					setInterval($('.ExtrasPlaza').html(datos[i].nota_extra),5000);
+					//setInterval($('.ExtrasPlaza').html(datos[i].nota_extra),5000);
+					$('.ExtrasPlaza').html(datos[i].nota_extra)
 					
 					
+					setInterval(function(){document.getElementById("cargando").style.display='none'},12000);
 					}
 				
 				}
