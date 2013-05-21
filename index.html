@@ -25,16 +25,16 @@
 <script type="text/javascript">
 	$(document).ready(function(e){
 	document.addEventListener("deviceready", function(){
-		 
+		 //mantenemos el loding por 15 segundo
 		
-		//alert("conectado");
+
 			slidePrincipal();
 			slideMiniatura();
 			slideVertical();
 			minuto_minuto();
 			CargarNoticiasHomeGal();	
 	
-		
+		setInterval($('#cargando').hide(),15000);
 	
 		
 	
@@ -91,7 +91,7 @@
 	
 			function slidePrincipal()
 			{
-				$('#cont_slideprincipal').html('<img src="imagenes/loading.gif" />');
+				//$('#cont_slideprincipal').html('<img src="imagenes/loading.gif" />');
 				 $.ajax({
 				
 				type: "POST",
@@ -100,7 +100,8 @@
 				cache: false,
 				success: function(message)
 				{
-				setInterval($('#cont_slideprincipal').html(message),5000);
+				//setInterval($('#cont_slideprincipal').html(message),5000);
+				$('#cont_slideprincipal').html(message)
 				}
 				
 				});
@@ -109,7 +110,7 @@
 			}
 			function slideMiniatura()
 			{
-				$('#cont_slidemini').html('<img src="imagenes/loading.gif" />');
+				//$('#cont_slidemini').html('<img src="imagenes/loading.gif" />');
 				$.ajax({
 					type: "POST",
 				url: "http://166.78.193.53/APPSintesis/php/slide_miniatura_and.php",
@@ -117,14 +118,15 @@
 				cache: false,
 				success: function(message)
 				{	
-				setInterval($('#cont_slidemini').html(message),5000);
+				//setInterval($('#cont_slidemini').html(message),5000);
+				$('#cont_slidemini').html(message)
 				
 				}
 				});
 			}
 			function slideVertical()
 			{
-				$('#content_slideVertical').html('<img src="imagenes/loading.gif" />');
+				//$('#content_slideVertical').html('<img src="imagenes/loading.gif" />');
 				$.ajax({
 					type: "POST",
 				url: "http://166.78.193.53/APPSintesis/php/slide_vertical.php",
@@ -132,7 +134,8 @@
 				cache: false,
 				success: function(message)
 				{	
-				setInterval($('#content_slideVertical').html(message),5000);
+				//setInterval($('#content_slideVertical').html(message),5000);
+				$('#content_slideVertical').html(message)
 				}
 				});
 			}
@@ -142,7 +145,7 @@
 			
 			function minuto_minuto()
 			{
-			$('#minuto_home').html('<img src="imagenes/loading.gif" />');
+			//$('#minuto_home').html('<img src="imagenes/loading.gif" />');
 				$.ajax({
 					type: "POST",
 				url: "http://166.78.193.53/APPSintesis/php/minutoaminuto_and.php",
@@ -150,7 +153,8 @@
 				cache: false,
 				success: function(message)
 				{	
-				setInterval($('#minuto_home').html(message),5000);
+				//setInterval($('#minuto_home').html(message),5000);
+				$('#minuto_home').html(message)
 					
 				
 				}
@@ -368,7 +372,7 @@ function LeerNota(id)
 </script>
 
 </head>
-<!-- <body onload="initialize()">-->
+<div class="lb-overlay" id="cargando" style="display:'none'"> <img src="imagenes/loading.gif"> </div>
 <body>
 <!-- Home -->
 <div id="home" class="content" >
